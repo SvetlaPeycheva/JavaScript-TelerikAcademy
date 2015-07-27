@@ -1,0 +1,66 @@
+<!-- HW - https://github.com/TelerikAcademy/JavaScript-Fundamentals/blob/master/09.%20Using%20Objects/README.md -->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Using Objects</title>
+</head>
+<body>
+    <h1>Problem 1. Planar coordinates</h1>
+	<div>
+	  <label>Point1 x:</label>
+	  <input id="p1x" type="text"/>
+      <label> y:</label>
+	  <input id="p1y" type="text"/>
+	</div>
+	<div>
+	  <label>Point2 x:</label>
+	  <input id="p2x" type="text"/>
+      <label> y:</label>
+	  <input id="p2y" type="text"/>
+	</div>
+	<div>
+	  <label>Point3 x:</label>
+	  <input id="p3x" type="text"/>
+      <label> y:</label>
+	  <input id="p3y" type="text"/>
+	</div>
+	<div>
+		<input onclick="problem1()" type="button" value="Submit"/>
+	</div>
+	<p id="res1Distance">Distance:</p>
+	<p id="res1Triangle">Can form a triangle:</p>
+	
+	<h1>Problem 2. Appearance count</h1>
+	<p>Choose from this numbers [1, 12, 2, 2, 5, 5, '2'].</p>
+	<label>Enter a value</label>
+	<input id="num2" type="text"/>
+	<input onclick="problem2()" type="button" value="Submit"/>
+	<p id="res2">Result:</p>
+	
+	<h1>Problem 3. Deep copy</h1>
+	<p>Please look at the JS file for method: cloneObject.</p>
+	
+	<h1>Problem 4. Has property</h1>
+	<p>Test object: var person = {age: 11, name: "person one"}</p>
+	<label>Enter a property name to test: </label>
+	<input id="name4" type="text"/>
+	<input onclick="problem4()" type="button" value="Test"/>
+	<p id="res4">Result:</p>
+	
+	<h1>Problem 5. Youngest person</h1>
+	<p>Test array: [{ firstname : 'Gosho', lastname: 'Petrov', age: 32 }, 
+                  { firstname : 'Bay', lastname: 'Ivan', age: 81},
+				  { firstname : 'Rob', lastname: 'Johnson', age: 21} ]</p>
+	<input onclick="problem5()" type="button" value="Find Youngest"/>
+	<p id="res5">Result:</p>
+	
+	<h1>Problem 6. Group an array</h1>
+	<p>Test array: [{ firstname : 'Gosho', lastname: 'Petrov', age: 32 }, 
+                  { firstname : 'Bay', lastname: 'Ivan', age: 81},
+				  { firstname : 'Rob', lastname: 'Johnson', age: 21} ]</p>
+	<input onclick="problem6()" type="button" value="Group"/>
+	<p id="res6">Result:</p>
+  <script src="Using-Objects.js"></script>
+</body>
+</html>

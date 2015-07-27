@@ -1,0 +1,40 @@
+<!-- HW - https://github.com/TelerikAcademy/JavaScript-Fundamentals/blob/master/03.%20Data%20types%20and%20Variables/README.md -->
+
+<Doctype HTML>
+<html lang="en">
+<head>
+<TITLE>JavaScript literals</TITLE>
+</head>
+<body>
+
+<p id = "demo"></p>
+
+<SCRIPT LANGUAGE="JavaScript">
+
+  var typeInt = 14;
+  var typeFloat = 3.14;
+  var typeString = "Slavi";
+  var typeUndefined;
+  var typeNull = null;
+  var typeArray = ["one", "two", "three"];
+  var typeObject = {
+					firstName: "Slavi", 
+					lastName: "Dimitrov", 
+					age: 27};
+  var typeBoolean = true;
+  var typeEmpty = "";
+  
+  document.getElementById("demo").innerHTML = 
+  "Number =" + typeInt + "</br>" + 
+  "Float =" + typeFloat + "</br>" +
+  "String =" + typeString + "</br>" + 
+  "Undefined =" + typeUndefined + "</br>" + 
+  "Null =" + null + "</br>" + 
+  "Array =" + typeArray[0] + " " + typeArray[1] + " " + typeArray[2] + "</br>" + 
+  "Object =" + typeObject.firstName + "  " + typeObject.lastName + " " + "is" + " " + typeObject.age + " " + "years old" + "</br>" + 
+  "Bullet =" + typeBoolean + "</br>" + 
+  "This is empty..." + typeEmpty;
+  
+</SCRIPT>
+</body>
+</HTML>
